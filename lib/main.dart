@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/View/home.dart';
+import 'package:news_app/Views/Home_View.dart';
 
 void main(){
 
@@ -12,11 +12,8 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
       debugShowCheckedModeBanner: false,
-      home: Homescrren (
-        
-      ),
+      home: HomeView (),
     );
   }
 }
